@@ -50,7 +50,7 @@ const facs: Fac[] = queryData.facs.nodes
   }
 
   return(
-    <Layout location="embedSVG_bo1">
+    <Layout location="bo-hybrid">
       <SEO title="Beggars Opera" />
       <Container component="main" maxWidth="md">
         <Ceteicean pageContext={pageContext} routes={routes} />
