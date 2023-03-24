@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="static/embedSVG_tei.css">
-        <script src="static/CETEI.js"></script>
+        <script src="static/tei/CETEI.js"></script>
         <script>
             let c = new CETEI();
-            c.getHTML5('static/embedSVG_bo1.xml', function (data) {
+            c.getHTML5('static/tei/bo-hybrid.xml', function (data) {
                 document.getElementsByTagName("body")[0].appendChild(data);
             });</script>
         
