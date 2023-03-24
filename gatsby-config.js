@@ -60,7 +60,7 @@ module.exports = {
       },
       {
         name: 'beggars opera',
-        link: '/embedSVG_bo1'
+        link: '/bo-hybrid'
       },
     ]
   },
