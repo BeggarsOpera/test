@@ -10,6 +10,7 @@ module.exports = {
       short: "Home",
       path: "/"
     },
+    siteUrl: `https://beggarsopera.github.io/test/`,
     doi: '10.55520/FAKE',
     group_order: 1,
     title,
@@ -65,6 +66,7 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
     `gatsby-theme-ceteicean`,
